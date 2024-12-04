@@ -47,7 +47,7 @@ public class Bai1 {
                         System.out.println();
                     }
                 case 4:
-                     height = 7;
+                    height = 7;
                     for (int i = 1; i <= height; i++) {
                         for (int j = height; j > i; j--) {
                             System.out.print("   ");
