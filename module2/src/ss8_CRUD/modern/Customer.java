@@ -1,7 +1,7 @@
-package ss9_mvc.model;
+package ss8_CRUD.modern;
 
 public class Customer {
-    public int id;
+    public String id;
     public String name;
     public String birthday;
     public String address;
@@ -9,18 +9,18 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(int id, String name, String birthday, String address) {
+    public Customer(String id, String name, String birthday, String address) {
         this.id = id;
         this.name = name;
         this.birthday = birthday;
         this.address = address;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -51,7 +51,7 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "id=" + id +
+                "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", birthday='" + birthday + '\'' +
                 ", address='" + address + '\'' +
